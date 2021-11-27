@@ -167,7 +167,6 @@ export const {
   editNickname,
 } = authSlice.actions;
 
-
 export const selectIsLoadingAuth = (state: RootState) =>
   state.auth.isLoadingAuth;
 export const selectOpenSignIn = (state: RootState) => state.auth.openSignIn;
